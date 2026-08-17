@@ -211,10 +211,13 @@ img { max-width: 100%; }
 .card-visual img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 24px;
+  background: #ffffff;
+  box-sizing: border-box;
   transition: transform 0.4s ease;
 }
-.card:hover .card-visual img { transform: scale(1.03); }
+.card:hover .card-visual img { transform: scale(1.04); }
 .card-fallback {
   position: absolute;
   inset: 0;
