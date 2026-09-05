@@ -856,3 +856,32 @@ footer {
   line-height: 1.65;
   padding: 0 0 20px;
 }
+
+/* ---- Blog ---- */
+.grid-blog { max-width: 900px; margin: 0 auto; }
+.grid-blog .post-card {
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  border-radius: var(--card-radius);
+  padding: 28px 28px 22px;
+  box-shadow: var(--shadow);
+}
+.grid-blog .post-card h3 { font-size: 20px; margin: 0 0 6px; }
+.grid-blog .post-card h3 a:hover { text-decoration: underline; }
+.post-date {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+}
+.prose .post-date { margin-bottom: 4px; }
+.prose.post { max-width: 760px; }
+.prose.post h1 { margin-bottom: 20px; }
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--hairline);
+  margin: 32px 0;
+}
+.post-cta { margin-top: 32px; text-align: center; }
