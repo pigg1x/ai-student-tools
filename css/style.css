@@ -912,3 +912,29 @@ footer {
   line-height: 1.5;
 }
 .cmp-table tbody tr:nth-child(even) td { background: #fafafa; }
+
+/* ---- Category editorial intro (E-E-A-T content block) ---- */
+.cat-intro {
+  max-width: 760px;
+  margin: 4px auto 34px;
+  padding: 0 22px;
+}
+.cat-intro p {
+  color: #3a3a3c;
+  font-size: 16.5px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+.cat-intro p:first-child {
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.58;
+}
+.cat-intro p:last-child { margin-bottom: 0; }
+.cat-intro a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: #c7c7cc;
+}
+.cat-intro a:hover { text-decoration-color: var(--ink); }
