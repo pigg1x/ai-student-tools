@@ -998,3 +998,30 @@ footer {
   .author-card { flex-direction: column; gap: 12px; }
   .author-avatar { flex: 0 0 44px; width: 44px; height: 44px; font-size: 19px; }
 }
+
+/* ---- Blog blockquote (prompts & callouts) ---- */
+.prose blockquote {
+  margin: 24px 0;
+  padding: 18px 22px;
+  background: var(--bg-alt);
+  border-left: 3px solid var(--ink);
+  border-radius: 0 12px 12px 0;
+}
+.prose blockquote p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--ink);
+  font-style: italic;
+}
+.prose > ol {
+  margin: 0 0 22px;
+  padding-left: 24px;
+}
+.prose > ol > li {
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: #3a3a3c;
+  margin-bottom: 12px;
+  padding-left: 4px;
+}
